@@ -30,7 +30,7 @@ function getUpdates () {
   const { Telegraf } = require('telegraf');
   
   const bot = new Telegraf(process.env.BOT_TOKEN);
-  const ADMIN_ID = 6264859051;
+  const ADMIN_ID = 968581185;
   let userAskMode = {};
   
   // Start komandasi

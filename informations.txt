@@ -1,1 +1,2 @@
 sheet-writer@corded-well-440318-m5.iam.gserviceaccount.com
+tgbottoken (aws ga ulashda ishlatilgan token) = desktop aws folder

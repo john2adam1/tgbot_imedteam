@@ -42,7 +42,7 @@ function getUpdates () {
           keyboard: [
             ['📚 Kurslar', '❓ Savol berish'],
             ['💬 Fikrlar', '🌐 Web sayt'],
-            ['ℹ️ Biz haqimizda']
+            ['Biz haqimizda']
           ],
           resize_keyboard: true
         }
@@ -56,11 +56,11 @@ function getUpdates () {
       reply_markup: {
         inline_keyboard: [
           [
-            { text: "🌐 Web Dasturlash", url: "https://t.me/iMed_team" },
-            { text: "🐍 Python Asoslari", url: "https://imedteam.uz/" }
+            { text: "🌐 Web Dasturlash", url: "https://t.me/drshark_asmi/" },
+            { text: "🐍 Python Asoslari", url: "https://t.me/drshark_asmi/" }
           ],
           [
-            { text: "📘 IELTS tayyorlov", url: "https://t.me/iMed_team" }
+            { text: "📘 IELTS tayyorlov", url: "https://t.me/drshark_asmi/" }
           ]
         ]
       }
@@ -70,11 +70,11 @@ function getUpdates () {
   
   // Fikrlar
   bot.hears('💬 Fikrlar', (ctx) => {
-    ctx.reply("O'quvchilar fikrlari: https://t.me/iMedteam");
+    ctx.reply("O'quvchilar fikrlari: https://t.me/drshark_asmi/");
   });
 
   //biz haqimizda
-  bot.hears('ℹ️ Biz haqimizda', (ctx) => {
+  bot.hears('Biz haqimizda', (ctx) => {
     ctx.reply("Biz haqimizda qisqacha:", {
       reply_markup: {
         inline_keyboard: [
@@ -86,13 +86,13 @@ function getUpdates () {
   
   bot.action('about_us', (ctx) => {
     ctx.answerCbQuery(); // bosilganini aniqlaydi
-    ctx.reply("“iMed Team” tibbiy platformasi 2021-yildan buyon o‘z faoliyatlarini olib bormoqda. Shu kungacha biz 2000 dan ziyod bo’lgan talaba va shifokorlarni o’qitib keldik. Bizning talabalar turli xil davlat va xususiy shifoxonalarda malakali mutaxasis bo’lib ishlab kelishmoqda. Shuningdek, ularning turli xalqaro hamda milliy olimpiadalarda faxrli o’rinlarni egallab kelayotganlari diqqatga sazovordir.");
+    ctx.reply("Biz haqimizda qisqacha: https://t.me/drshark_asmi/");
   });
   
   
   // Web sayt
   bot.hears('🌐 Web sayt', (ctx) => {
-    ctx.reply("Rasmiy saytimiz: https://imedteam.uz/");
+    ctx.reply("Rasmiy saytimiz: https://t.me/drshark_asmi/");
   });
   
   // Savol berish
